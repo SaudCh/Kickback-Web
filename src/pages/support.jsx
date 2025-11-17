@@ -2,14 +2,14 @@ import React from "react";
 
 export default function SupportPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 py-8 px-4 md:px-8">
+    <div className="min-h-screen bg-linear-to-br from-slate-100 to-slate-200 py-8 px-4 md:px-8">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 md:p-10">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 pb-4 border-b-4 border-blue-500">
           Support
         </h1>
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          Welcome to Salsivo Support! If you have any questions, issues, or
+          Welcome to KickBack Support! If you have any questions, issues, or
           feedback about our app, we're here to help.
         </p>
 
@@ -21,18 +21,18 @@ export default function SupportPage() {
             Email:{" "}
             <a
               className="text-blue-600 hover:underline"
-              href="mailto:pinedajv02@gmail.com"
+              href="mailto:saudchaudhary0@gmail.com"
             >
-              pinedajv02@gmail.com
+              saudchaudhary0@gmail.com
             </a>
           </li>
           <li>
             Phone:{" "}
             <a
               className="text-blue-600 hover:underline"
-              href="tel:+447481989909"
+              href="tel:+18453004337"
             >
-              +44 7481 989909
+              +1 845-300-4337
             </a>
           </li>
         </ul>
@@ -47,14 +47,21 @@ export default function SupportPage() {
             </a>
           </li> */}
           <li>
-            <a className="text-blue-600 hover:underline" href="/privacy-policy">
+            <a
+              className="text-blue-600 hover:underline"
+              href="https://app.termly.io/policy-viewer/policy.html?policyUUID=51735f72-c6ab-4e8b-96cb-36c6cf73cdfd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Privacy Policy
             </a>
           </li>
           <li>
             <a
               className="text-blue-600 hover:underline"
-              href="/terms-and-conditions"
+              href="https://app.termly.io/policy-viewer/policy.html?policyUUID=7e81b917-9676-4b18-88ac-fe3a3fc07c8f"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Terms of Service
             </a>
