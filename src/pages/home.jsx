@@ -14,17 +14,19 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <a
-              href="#"
+              href="https://apps.apple.com/us/app/kickback-find-guy-friends/id6746941797"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-purple-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
             >
               Download on App Store
             </a>
-            <a
+            {/* <a
               href="#"
               className="bg-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-700 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
             >
               Get it on Google Play
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -102,17 +104,19 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="#"
+            href="https://apps.apple.com/us/app/kickback-find-guy-friends/id6746941797"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white text-purple-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
           >
             Download on App Store
           </a>
-          <a
+          {/* <a
             href="#"
             className="bg-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-700 transition-all shadow-xl hover:shadow-2xl transform hover:scale-105"
           >
             Get it on Google Play
-          </a>
+          </a> */}
         </div>
       </div>
 
