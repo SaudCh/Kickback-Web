@@ -3,6 +3,7 @@ import { Route, Link, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import DeleteAccount from "./pages/delete";
 import SupportPage from "./pages/support";
+import CSAE from "./pages/csae";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/how-to-delete-account" element={<DeleteAccount />} />
         <Route path="/support" element={<SupportPage />} />
+        <Route path="/child-safety-standards" element={<CSAE />} />
         <Route path="/*" element={<Home />} />
       </Routes>
     </>
