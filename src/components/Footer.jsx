@@ -22,9 +22,8 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 py-12 md:py-16">
         <div className="grid md:grid-cols-3 gap-10 md:gap-8">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
+            <div className="flex items-center mb-4">
               <img src="/logo.png" alt="KickBack" className="h-8 w-auto" />
-              <span className="text-white font-bold text-lg">KickBack</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Find guy friends, plan kickbacks, and build real friendships.
