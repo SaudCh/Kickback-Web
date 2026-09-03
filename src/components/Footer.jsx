@@ -4,15 +4,11 @@ const footerLinks = [
   { href: "/support", label: "Support", internal: true },
   { href: "/how-to-delete-account", label: "Delete Account", internal: true },
   { href: "/child-safety-standards", label: "Child Safety", internal: true },
+  { href: "/privacy-policy", label: "Privacy Policy", internal: true },
   {
-    href: "https://app.termly.io/policy-viewer/policy.html?policyUUID=51735f72-c6ab-4e8b-96cb-36c6cf73cdfd",
-    label: "Privacy Policy",
-    internal: false,
-  },
-  {
-    href: "https://app.termly.io/policy-viewer/policy.html?policyUUID=7e81b917-9676-4b18-88ac-fe3a3fc07c8f",
+    href: "/terms-and-conditions",
     label: "Terms & Conditions",
-    internal: false,
+    internal: true,
   },
 ];
 
@@ -67,14 +63,23 @@ export default function Footer() {
             <ul className="space-y-3">
               {footerLinks.slice(3).map((link) => (
                 <li key={link.href}>
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white text-sm transition-colors"
-                  >
-                    {link.label}
-                  </a>
+                  {link.internal ? (
+                    <Link
+                      to={link.href}
+                      className="text-gray-400 hover:text-white text-sm transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white text-sm transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

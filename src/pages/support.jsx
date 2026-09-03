@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PageShell from "../components/PageShell";
 
 export default function SupportPage() {
@@ -35,29 +36,25 @@ export default function SupportPage() {
       </h2>
       <ul className="space-y-3 mb-8">
         <li>
-          <a
-            className="text-primary hover:underline"
-            href="https://app.termly.io/policy-viewer/policy.html?policyUUID=51735f72-c6ab-4e8b-96cb-36c6cf73cdfd"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link className="text-primary hover:underline" to="/privacy-policy">
             Privacy Policy
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="text-primary hover:underline"
-            href="https://app.termly.io/policy-viewer/policy.html?policyUUID=7e81b917-9676-4b18-88ac-fe3a3fc07c8f"
-            target="_blank"
-            rel="noopener noreferrer"
+            to="/terms-and-conditions"
           >
-            Terms of Service
-          </a>
+            Terms & Conditions
+          </Link>
         </li>
         <li>
-          <a className="text-primary hover:underline" href="/how-to-delete-account">
+          <Link
+            className="text-primary hover:underline"
+            to="/how-to-delete-account"
+          >
             How to Delete Your Account
-          </a>
+          </Link>
         </li>
       </ul>
 
