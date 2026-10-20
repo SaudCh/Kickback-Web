@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import BrandLink from "./BrandLink";
 
 const navLinks = [
   { to: "/#features", label: "Features" },
@@ -13,16 +14,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-line/80 bg-paper/90 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 md:h-[4.25rem]">
-        <Link to="/" className="flex items-center gap-2.5">
-          <img
-            src="/logo.png"
-            alt="KickBack"
-            className="h-8 w-auto"
-          />
-          <span className="font-display text-lg font-semibold tracking-tight text-ink">
-            KickBack
-          </span>
-        </Link>
+        <BrandLink />
 
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) =>

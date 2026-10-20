@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import BrandLink from "./BrandLink";
 
 const companyLinks = [
   { href: "/support", label: "Support" },
@@ -17,11 +18,8 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-16">
         <div className="grid gap-10 md:grid-cols-3 md:gap-8">
           <div>
-            <div className="mb-4 flex items-center gap-2.5">
-              <img src="/logo.png" alt="KickBack" className="h-8 w-auto" />
-              <span className="font-display text-lg font-semibold tracking-tight text-ink">
-                KickBack
-              </span>
+            <div className="mb-4">
+              <BrandLink />
             </div>
             <p className="max-w-xs text-sm leading-relaxed text-muted">
               Find guy friends, plan kickbacks, and build real friendships.
