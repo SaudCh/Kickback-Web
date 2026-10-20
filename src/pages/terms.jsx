@@ -4,16 +4,16 @@ import PageShell from "../components/PageShell";
 export default function TermsAndConditions() {
   return (
     <PageShell title="Terms & Conditions">
-      <div className="mb-8 text-gray-400 space-y-1 text-sm">
+      <div className="mb-8 text-muted space-y-1 text-sm">
         <p>
-          <span className="text-gray-500">App Name:</span> KickBack — Find Guy
+          <span className="text-muted/80">App Name:</span> KickBack — Find Guy
           Friends
         </p>
         <p>
-          <span className="text-gray-500">Operator:</span> KVB Technology LLC
+          <span className="text-muted/80">Operator:</span> KVB Technology LLC
         </p>
         <p>
-          <span className="text-gray-500">Last Updated:</span> 3 September 2026
+          <span className="text-muted/80">Last Updated:</span> 3 September 2026
         </p>
       </div>
 
@@ -28,10 +28,10 @@ export default function TermsAndConditions() {
       </p>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           1. Eligibility
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack is for adults only. You must be at least 18 years old to
           create an account or use the app. By using KickBack, you represent
           that you are 18 or older and that the information you provide is
@@ -40,8 +40,8 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">2. Your Account</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <h2 className="text-xl font-semibold text-ink mb-4">2. Your Account</h2>
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>You are responsible for keeping your login credentials secure</li>
           <li>You are responsible for activity that occurs on your account</li>
           <li>
@@ -61,10 +61,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           3. The KickBack Service
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack helps users discover nearby people, chat, and plan hangouts.
           We may change, suspend, or discontinue features at any time. Some
           features may require location permission, camera or photo access, or
@@ -73,11 +73,11 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           4. Acceptable Use
         </h2>
         <p className="mb-4">You agree not to:</p>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>Harass, threaten, stalk, or harm other users</li>
           <li>Post illegal, hateful, violent, or sexually explicit content involving minors</li>
           <li>Spam, scam, or solicit money, crypto, or commercial services without permission</li>
@@ -92,7 +92,7 @@ export default function TermsAndConditions() {
         <h2 className="text-xl font-semibold text-red-400 mb-4">
           5. Child Safety and Zero Tolerance for CSAE
         </h2>
-        <p className="mb-4 text-gray-400">
+        <p className="mb-4 text-muted">
           KickBack has a zero-tolerance policy for child sexual abuse and
           exploitation. Content or behavior involving CSAM, grooming, or harm
           to minors will result in immediate account removal and, where
@@ -111,10 +111,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           6. User Content
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           You retain ownership of photos, messages, and other content you post.
           You grant KickBack a license to host, display, and distribute that
           content as needed to operate the service. You represent that you have
@@ -125,10 +125,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           7. In-Person Meetups
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack helps you plan hangouts. We do not supervise, verify, or
           control in-person meetings. You are solely responsible for your
           safety and for any interactions that happen off the app. Use common
@@ -138,10 +138,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           8. Subscriptions and Payments
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           Paid features are billed through the Apple App Store or Google Play.
           Prices, billing periods, auto-renewal, cancellation, and refunds are
           governed by Apple’s or Google’s terms. Manage or cancel a
@@ -150,10 +150,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           9. Termination
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           You may stop using KickBack and delete your account at any time. We
           may suspend or terminate accounts that violate these Terms, pose a
           safety risk, or are inactive. We may also suspend the service for
@@ -162,10 +162,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           10. Disclaimers
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack is provided “as is” and “as available.” We do not warrant
           that the app will be uninterrupted, error-free, or that other users’
           profiles or statements are accurate. To the fullest extent permitted
@@ -175,10 +175,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           11. Limitation of Liability
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           To the fullest extent permitted by law, KVB Technology LLC and its
           officers, employees, and partners are not liable for indirect,
           incidental, special, consequential, or punitive damages, or for any
@@ -191,10 +191,10 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           12. Changes to These Terms
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           We may update these Terms from time to time. The “Last Updated” date
           will change when we do. If you continue using KickBack after an
           update, you accept the revised Terms.
@@ -202,13 +202,13 @@ export default function TermsAndConditions() {
       </section>
 
       <section className="bg-white/5 border border-white/10 rounded-xl p-6">
-        <h2 className="text-xl font-semibold text-white mb-4">13. Contact Us</h2>
-        <p className="mb-4 text-gray-400">
+        <h2 className="text-xl font-semibold text-ink mb-4">13. Contact Us</h2>
+        <p className="mb-4 text-muted">
           Questions about these Terms can be sent to KVB Technology LLC:
         </p>
         <div className="space-y-2">
           <p>
-            <span className="text-gray-500">Email:</span>{" "}
+            <span className="text-muted/80">Email:</span>{" "}
             <a
               href="mailto:saudchaudhary0@gmail.com"
               className="text-primary hover:underline"
@@ -217,7 +217,7 @@ export default function TermsAndConditions() {
             </a>
           </p>
           <p>
-            <span className="text-gray-500">Phone:</span>{" "}
+            <span className="text-muted/80">Phone:</span>{" "}
             <a
               href="tel:+18453004337"
               className="text-primary hover:underline"
@@ -226,7 +226,7 @@ export default function TermsAndConditions() {
             </a>
           </p>
           <p>
-            <span className="text-gray-500">Support:</span>{" "}
+            <span className="text-muted/80">Support:</span>{" "}
             <Link to="/support" className="text-primary hover:underline">
               KickBack Support
             </Link>

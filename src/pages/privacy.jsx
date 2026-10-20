@@ -4,16 +4,16 @@ import PageShell from "../components/PageShell";
 export default function PrivacyPolicy() {
   return (
     <PageShell title="Privacy Policy">
-      <div className="mb-8 text-gray-400 space-y-1 text-sm">
+      <div className="mb-8 text-muted space-y-1 text-sm">
         <p>
-          <span className="text-gray-500">App Name:</span> KickBack — Find Guy
+          <span className="text-muted/80">App Name:</span> KickBack — Find Guy
           Friends
         </p>
         <p>
-          <span className="text-gray-500">Operator:</span> KVB Technology LLC
+          <span className="text-muted/80">Operator:</span> KVB Technology LLC
         </p>
         <p>
-          <span className="text-gray-500">Last Updated:</span> 3 September 2026
+          <span className="text-muted/80">Last Updated:</span> 3 September 2026
         </p>
       </div>
 
@@ -26,17 +26,17 @@ export default function PrivacyPolicy() {
       </p>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           1. Information We Collect
         </h2>
         <p className="mb-4">
           We collect information you provide, information created through your
           use of KickBack, and information from your device when you allow it.
         </p>
-        <h3 className="text-lg font-semibold text-white mb-3">
+        <h3 className="text-lg font-semibold text-ink mb-3">
           Account and profile
         </h3>
-        <ul className="list-disc list-inside space-y-2 mb-4 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 mb-4 text-muted">
           <li>Name, email address, and password</li>
           <li>
             Profile details such as photos, bio, interests, and what you are
@@ -45,10 +45,10 @@ export default function PrivacyPolicy() {
           <li>Messages you send and receive in chats</li>
           <li>Kickbacks you create, join, or RSVP to</li>
         </ul>
-        <h3 className="text-lg font-semibold text-white mb-3">
+        <h3 className="text-lg font-semibold text-ink mb-3">
           Location and device
         </h3>
-        <ul className="list-disc list-inside space-y-2 mb-4 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 mb-4 text-muted">
           <li>
             Approximate or precise location, if you grant permission, so we can
             show nearby people and places
@@ -62,8 +62,8 @@ export default function PrivacyPolicy() {
           </li>
           <li>Push notification tokens if you enable notifications</li>
         </ul>
-        <h3 className="text-lg font-semibold text-white mb-3">Payments</h3>
-        <p className="text-gray-400">
+        <h3 className="text-lg font-semibold text-ink mb-3">Payments</h3>
+        <p className="text-muted">
           If you subscribe to KickBack, purchases are processed by Apple App
           Store or Google Play. We receive subscription status from those
           stores. We do not collect or store your full payment card details.
@@ -71,10 +71,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           2. How We Use Information
         </h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>Create and maintain your account and profile</li>
           <li>
             Show nearby users, maps, and hangout suggestions based on location
@@ -89,14 +89,14 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           3. How We Share Information
         </h2>
         <p className="mb-4">
           We do not sell your personal information. We may share information in
           these cases:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>
             With other KickBack users, as part of your public profile, chats,
             and kickbacks you join
@@ -118,10 +118,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           4. Location Information
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack uses location to help you discover guys and hangouts nearby.
           You can deny or later revoke location permission in your device
           settings. Some map and nearby features will not work without it.
@@ -129,10 +129,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           5. Retention and Deletion
         </h2>
-        <p className="mb-4 text-gray-400">
+        <p className="mb-4 text-muted">
           We keep your information for as long as your account is active and as
           needed to provide KickBack, resolve disputes, enforce our terms, and
           meet legal obligations. When you delete your account, we permanently
@@ -153,10 +153,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           6. Children’s Privacy
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           KickBack is intended for adults only. We do not knowingly collect
           personal information from anyone under 18. If we learn that a minor
           has created an account, we will delete it. See our{" "}
@@ -171,8 +171,8 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">7. Security</h2>
-        <p className="text-gray-400">
+        <h2 className="text-xl font-semibold text-ink mb-4">7. Security</h2>
+        <p className="text-muted">
           We use reasonable administrative, technical, and physical safeguards
           to protect your information. No method of transmission or storage is
           completely secure, so we cannot guarantee absolute security.
@@ -180,10 +180,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           8. Your Choices
         </h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>Update your profile and privacy settings in the app</li>
           <li>Control location, camera, photos, and notifications on your device</li>
           <li>Delete your account from Privacy settings in the app</li>
@@ -194,10 +194,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           9. Changes to This Policy
         </h2>
-        <p className="text-gray-400">
+        <p className="text-muted">
           We may update this Privacy Policy from time to time. The “Last
           Updated” date at the top of this page will change when we do. Continued
           use of KickBack after an update means you accept the revised policy.
@@ -205,14 +205,14 @@ export default function PrivacyPolicy() {
       </section>
 
       <section className="bg-white/5 border border-white/10 rounded-xl p-6">
-        <h2 className="text-xl font-semibold text-white mb-4">10. Contact Us</h2>
-        <p className="mb-4 text-gray-400">
+        <h2 className="text-xl font-semibold text-ink mb-4">10. Contact Us</h2>
+        <p className="mb-4 text-muted">
           If you have questions about this Privacy Policy or your information,
           contact KVB Technology LLC:
         </p>
         <div className="space-y-2">
           <p>
-            <span className="text-gray-500">Email:</span>{" "}
+            <span className="text-muted/80">Email:</span>{" "}
             <a
               href="mailto:saudchaudhary0@gmail.com"
               className="text-primary hover:underline"
@@ -221,7 +221,7 @@ export default function PrivacyPolicy() {
             </a>
           </p>
           <p>
-            <span className="text-gray-500">Phone:</span>{" "}
+            <span className="text-muted/80">Phone:</span>{" "}
             <a
               href="tel:+18453004337"
               className="text-primary hover:underline"

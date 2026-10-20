@@ -3,19 +3,19 @@ import PageShell from "../components/PageShell";
 export default function CSAE() {
   return (
     <PageShell title="Child Safety Standards & CSAE Policy">
-      <div className="mb-8 text-gray-400 space-y-1 text-sm">
+      <div className="mb-8 text-muted space-y-1 text-sm">
         <p>
-          <span className="text-gray-500">App Name:</span> KickBack - Find Guy
+          <span className="text-muted/80">App Name:</span> KickBack - Find Guy
           Friends
         </p>
         <p>
-          <span className="text-gray-500">Developer:</span> KVB Technology LLC
+          <span className="text-muted/80">Developer:</span> KVB Technology LLC
         </p>
         <p>
-          <span className="text-gray-500">Platform:</span> Google Play
+          <span className="text-muted/80">Platform:</span> Google Play
         </p>
         <p>
-          <span className="text-gray-500">Last Updated:</span> 13 January 2026
+          <span className="text-muted/80">Last Updated:</span> 13 January 2026
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export default function CSAE() {
           KickBack has a zero-tolerance policy for child sexual abuse and
           exploitation (CSAE).
         </p>
-        <ul className="list-disc list-inside space-y-2 mb-4 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 mb-4 text-muted">
           <li>Child sexual abuse material (CSAM)</li>
           <li>Sexual content involving minors</li>
           <li>Grooming or exploitation of minors</li>
@@ -49,14 +49,14 @@ export default function CSAE() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           2. Prohibited Content and Behavior
         </h2>
         <p className="mb-4">
           The following content and behavior are strictly prohibited on the
           KickBack app:
         </p>
-        <ul className="list-disc list-inside space-y-2 mb-4 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 mb-4 text-muted">
           <li>
             Creation, possession, sharing, solicitation, or promotion of CSAM
           </li>
@@ -77,14 +77,14 @@ export default function CSAE() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           3. User Reporting and Moderation
         </h2>
         <p className="mb-4">
           KickBack provides accessible in-app reporting tools that allow users
           to report content or behavior that may violate this policy.
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 text-muted">
           <li>
             Reporting options are available within user profiles, messages, and
             interactive areas
@@ -100,11 +100,11 @@ export default function CSAE() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           4. Detection, Removal, and Reporting of CSAM
         </h2>
         <p className="mb-4">When KickBack becomes aware of potential CSAM:</p>
-        <ul className="list-disc list-inside space-y-2 mb-4 text-gray-400">
+        <ul className="list-disc list-inside space-y-2 mb-4 text-muted">
           <li>The content is immediately removed</li>
           <li>The associated account is blocked or permanently banned</li>
           <li>
@@ -118,7 +118,7 @@ export default function CSAE() {
       </section>
 
       <section className="mb-10 bg-white/5 border border-white/10 rounded-xl p-6">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           5. Child Safety Point of Contact
         </h2>
         <p className="mb-4">
@@ -127,7 +127,7 @@ export default function CSAE() {
         </p>
         <div className="space-y-2">
           <p>
-            <span className="text-gray-500">Email:</span>{" "}
+            <span className="text-muted/80">Email:</span>{" "}
             <a
               href="mailto:kickback.guys@gmail.com"
               className="text-primary hover:underline"
@@ -136,13 +136,13 @@ export default function CSAE() {
             </a>
           </p>
           <p>
-            <span className="text-gray-500">Phone:</span> 845-300-4337
+            <span className="text-muted/80">Phone:</span> 845-300-4337
           </p>
         </div>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           6. Enforcement and Policy Updates
         </h2>
         <p>
@@ -154,7 +154,7 @@ export default function CSAE() {
       </section>
 
       <section className="mb-10 bg-red-500/10 border border-red-500/20 rounded-xl p-6">
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           7. Immediate Risk Situations
         </h2>
         <p>
@@ -172,7 +172,7 @@ export default function CSAE() {
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold text-white mb-4">
+        <h2 className="text-xl font-semibold text-ink mb-4">
           8. Intended Audience
         </h2>
         <p>

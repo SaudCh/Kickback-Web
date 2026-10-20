@@ -11,51 +11,53 @@ export default function Header() {
   const isHome = location.pathname === "/";
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-surface/80 backdrop-blur-xl">
-      <div className="container mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-18">
-          <Link to="/" className="flex items-center group">
-            <img
-              src="/logo.png"
-              alt="KickBack"
-              className="h-8 w-auto"
-            />
-          </Link>
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-line/80 bg-paper/90 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 md:h-[4.25rem]">
+        <Link to="/" className="flex items-center gap-2.5">
+          <img
+            src="/logo.png"
+            alt="KickBack"
+            className="h-8 w-auto"
+          />
+          <span className="font-display text-lg font-semibold tracking-tight text-ink">
+            KickBack
+          </span>
+        </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
+        <nav className="hidden items-center gap-8 md:flex">
+          {navLinks.map((link) =>
+            link.to.startsWith("/#") && isHome ? (
               <a
                 key={link.to}
-                href={link.to}
-                className="text-sm text-gray-400 hover:text-white transition-colors font-medium"
+                href={link.to.slice(1)}
+                className="text-sm font-medium text-muted transition-colors hover:text-ink"
               >
                 {link.label}
               </a>
-            ))}
-            {isHome ? (
-              <a
-                href="#download"
-                className="text-sm bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg font-semibold transition-colors"
-              >
-                Download
-              </a>
             ) : (
               <Link
-                to="/"
-                className="text-sm bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg font-semibold transition-colors"
+                key={link.to}
+                to={link.to}
+                className="text-sm font-medium text-muted transition-colors hover:text-ink"
               >
-                Download
+                {link.label}
               </Link>
-            )}
-          </nav>
-
+            )
+          )}
           <a
             href={isHome ? "#download" : "/#download"}
-            className="md:hidden text-sm bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+            className="rounded-lg bg-ink px-5 py-2 text-sm font-semibold text-white transition hover:bg-ink/90"
           >
             Download
           </a>
-        </div>
+        </nav>
+
+        <a
+          href={isHome ? "#download" : "/#download"}
+          className="rounded-lg bg-ink px-4 py-2 text-sm font-semibold text-white transition hover:bg-ink/90 md:hidden"
+        >
+          Download
+        </a>
       </div>
     </header>
   );

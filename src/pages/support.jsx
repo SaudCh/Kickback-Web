@@ -9,10 +9,10 @@ export default function SupportPage() {
         feedback about our app, we're here to help.
       </p>
 
-      <h2 className="text-xl font-semibold text-white mt-8 mb-4">Contact Us</h2>
+      <h2 className="text-xl font-semibold text-ink mt-8 mb-4">Contact Us</h2>
       <ul className="space-y-3 mb-8">
         <li>
-          <span className="text-gray-500">Email:</span>{" "}
+          <span className="text-muted/80">Email:</span>{" "}
           <a
             className="text-primary hover:underline"
             href="mailto:saudchaudhary0@gmail.com"
@@ -21,7 +21,7 @@ export default function SupportPage() {
           </a>
         </li>
         <li>
-          <span className="text-gray-500">Phone:</span>{" "}
+          <span className="text-muted/80">Phone:</span>{" "}
           <a
             className="text-primary hover:underline"
             href="tel:+18453004337"
@@ -31,7 +31,7 @@ export default function SupportPage() {
         </li>
       </ul>
 
-      <h2 className="text-xl font-semibold text-white mt-8 mb-4">
+      <h2 className="text-xl font-semibold text-ink mt-8 mb-4">
         Frequently Asked Questions
       </h2>
       <ul className="space-y-3 mb-8">
@@ -58,7 +58,7 @@ export default function SupportPage() {
         </li>
       </ul>
 
-      <h2 className="text-xl font-semibold text-white mt-8 mb-4">
+      <h2 className="text-xl font-semibold text-ink mt-8 mb-4">
         App Support
       </h2>
       <p>

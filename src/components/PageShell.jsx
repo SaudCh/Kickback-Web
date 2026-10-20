@@ -5,19 +5,19 @@ export default function PageShell({ title, accent = "primary", children }) {
   const accentColors = {
     primary: "border-primary",
     red: "border-red-500",
-    blue: "border-blue-500",
+    blue: "border-primary",
   };
 
   return (
     <Layout>
-      <div className="pt-24 pb-16 md:pt-28 md:pb-20">
-        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+      <div className="pb-16 pt-24 md:pb-20 md:pt-28">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <Link
             to="/"
-            className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors mb-8"
+            className="mb-8 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink"
           >
             <svg
-              className="w-4 h-4"
+              className="h-4 w-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -32,14 +32,18 @@ export default function PageShell({ title, accent = "primary", children }) {
             Back to Home
           </Link>
 
-          <div className="card-shine rounded-2xl p-8 md:p-12">
+          <article>
             <h1
-              className={`text-3xl md:text-4xl font-bold text-white mb-2 pb-4 border-b-2 ${accentColors[accent] || accentColors.primary}`}
+              className={`mb-2 border-b-2 pb-4 font-display text-3xl font-bold tracking-tight text-ink md:text-4xl ${
+                accentColors[accent] || accentColors.primary
+              }`}
             >
               {title}
             </h1>
-            <div className="text-gray-300 leading-relaxed">{children}</div>
-          </div>
+            <div className="prose-kickback leading-relaxed text-muted">
+              {children}
+            </div>
+          </article>
         </div>
       </div>
     </Layout>

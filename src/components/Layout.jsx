@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function Layout({ children, className = "" }) {
   return (
-    <div className={`min-h-screen bg-surface text-white ${className}`}>
+    <div className={`min-h-screen bg-paper text-ink ${className}`}>
       <Header />
       <main>{children}</main>
       <Footer />

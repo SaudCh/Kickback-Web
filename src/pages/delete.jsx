@@ -30,36 +30,36 @@ const steps = [
 export default function DeleteAccount() {
   return (
     <PageShell title="How to Delete Your Account" accent="red">
-      <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-xl p-4 mb-8">
-        <p className="text-yellow-200 text-sm font-medium">
+      <div className="bg-accent/10 border border-accent/25 rounded-xl p-4 mb-8">
+        <p className="text-ink text-sm font-medium">
           Warning: This action is permanent and cannot be undone.
         </p>
       </div>
 
-      <h2 className="text-xl font-semibold text-white mb-6">
+      <h2 className="text-xl font-semibold text-ink mb-6">
         Steps to Delete Your KickBack Account
       </h2>
 
       <div className="space-y-6 mb-10">
         {steps.map((step, index) => (
           <div key={step.title} className="flex items-start gap-4">
-            <div className="shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm">
+            <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">
               {index + 1}
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-white mb-1">
+              <h3 className="text-lg font-semibold text-ink mb-1">
                 {step.title}
               </h3>
-              <p className="text-gray-400">{step.description}</p>
+              <p className="text-muted">{step.description}</p>
             </div>
           </div>
         ))}
       </div>
 
-      <h2 className="text-xl font-semibold text-white mt-10 mb-4">
+      <h2 className="text-xl font-semibold text-ink mt-10 mb-4">
         What Happens When You Delete Your Account?
       </h2>
-      <ul className="space-y-2 mb-10 text-gray-400">
+      <ul className="space-y-2 mb-10 text-muted">
         <li>Your profile and all personal information will be permanently deleted</li>
         <li>All your messages and conversations will be removed</li>
         <li>Your kickback events and RSVPs will be deleted</li>
@@ -69,14 +69,14 @@ export default function DeleteAccount() {
       </ul>
 
       <div className="bg-primary/10 border border-primary/20 rounded-xl p-6">
-        <h3 className="text-lg font-semibold text-white mb-3">Need Help?</h3>
-        <p className="text-gray-400 mb-4">
+        <h3 className="text-lg font-semibold text-ink mb-3">Need Help?</h3>
+        <p className="text-muted mb-4">
           If you're having trouble deleting your account or have questions,
           please contact our support team:
         </p>
-        <div className="space-y-2 text-gray-300">
+        <div className="space-y-2 text-muted">
           <p>
-            <span className="text-gray-500">Email:</span>{" "}
+            <span className="text-muted/80">Email:</span>{" "}
             <a
               className="text-primary hover:underline"
               href="mailto:saudchaudhary0@gmail.com"
@@ -85,7 +85,7 @@ export default function DeleteAccount() {
             </a>
           </p>
           <p>
-            <span className="text-gray-500">Phone:</span>{" "}
+            <span className="text-muted/80">Phone:</span>{" "}
             <a
               className="text-primary hover:underline"
               href="tel:+18453004337"
@@ -99,13 +99,13 @@ export default function DeleteAccount() {
       <div className="mt-10 flex flex-wrap gap-4">
         <Link
           to="/"
-          className="inline-block bg-white/10 hover:bg-white/15 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
+          className="inline-block bg-paper-deep hover:bg-line text-ink px-6 py-3 rounded-xl font-semibold transition-colors"
         >
           Back to Home
         </Link>
         <Link
           to="/support"
-          className="inline-block bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-xl font-semibold transition-colors"
+          className="inline-block rounded-xl bg-primary px-6 py-3 font-semibold text-white transition-colors hover:bg-primary-dark"
         >
           Contact Support
         </Link>
